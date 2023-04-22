@@ -9,20 +9,24 @@ import {
 const initialState = {
   selectedEmail: {},
   emailList: [],
+  id: 1,
 };
 
 export default function emailReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_EMAIL:
+      let nextId = state.id;
+      nextId++;
       return {
-        ...initialState,
-        emailList: [...state.emailList, action.payload],
+        ...state,
+        emailList: [...state.emailList, { ...action.payload, id: nextId }],
+        id: nextId,
       };
     case DELETE_EMAIL:
       return {
         ...state,
         emailList: state.emailList.map((email) => {
-          if (email != action.payload) {
+          if (email.id != action.payload) {
             return email;
           }
           return {
@@ -40,7 +44,7 @@ export default function emailReducer(state = initialState, action) {
       return {
         ...state,
         emailList: state.emailList.map((email) => {
-          if (email != action.payload) {
+          if (email.id != action.payload) {
             return email;
           }
           return {
@@ -53,7 +57,7 @@ export default function emailReducer(state = initialState, action) {
       return {
         ...state,
         emailList: state.emailList.map((email) => {
-          if (email != action.payload) {
+          if (email.id != action.payload) {
             return email;
           }
           return {
