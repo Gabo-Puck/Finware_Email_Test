@@ -29,7 +29,7 @@ async function getEmailsFromAPI() {
 
 function getNewEmails() {
   store.dispatch({ type: FETCH_EMAILS });
-  setTimeout(getNewEmails, 10000);
+  setTimeout(getNewEmails, 90000);
 }
 
 getNewEmails();
