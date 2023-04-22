@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import EmailListItem from "./emailListItem";
+import FilterOptions from "../filter/filterOptions";
 
 const selectEmails = (state) =>
   state.email.emailList.filter((e) => e.type == state.filter.filter);
@@ -11,7 +12,12 @@ const EmailList = () => {
     return <EmailListItem email={email} key={email.id} />;
   });
 
-  return <ul className="email-list">{renderedEmails}</ul>;
+  return (
+    <div>
+      <FilterOptions />
+      <ul className="email-list">{renderedEmails}</ul>
+    </div>
+  );
 };
 
 export default EmailList;
