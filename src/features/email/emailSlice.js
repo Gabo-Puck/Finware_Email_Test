@@ -4,10 +4,10 @@ import {
   SELECT_EMAIL,
   UNREAD_EMAIL,
   SPAM_EMAIL,
-} from "../../actionTypes/actionTypes";
+} from "../../actions/actionTypes";
 
 const initialState = {
-  selectedEmail: {},
+  selectedEmail: undefined,
   emailList: [],
   id: 1,
 };

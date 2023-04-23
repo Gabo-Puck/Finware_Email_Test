@@ -1,5 +1,5 @@
 import React from "react";
-import { CHANGE_FILTER } from "../../actionTypes/actionTypes";
+import { CHANGE_FILTER } from "../actions/actionTypes";
 import { useDispatch } from "react-redux/es/exports";
 
 const FilterOptions = () => {

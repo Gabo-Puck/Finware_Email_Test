@@ -1,8 +1,9 @@
 import React from "react";
-import EmailList from "./features/email/emailList";
+import EmailList from "./components/emailList";
 import store from "./store";
-import { FETCH_EMAILS } from "./actionTypes/actionTypes";
-
+import { FETCH_EMAILS } from "./actions/actionTypes";
+import EmailDetails from "./components/emailDetails";
+import "./sass/App.scss";
 let email = {
   from: "mhallatt0@walmart.com",
   to: "cziem0@surveymonkey.com",
@@ -29,15 +30,16 @@ async function getEmailsFromAPI() {
 
 function getNewEmails() {
   store.dispatch({ type: FETCH_EMAILS });
-  setTimeout(getNewEmails, 90000);
+  setTimeout(getNewEmails, 3000);
 }
 
 getNewEmails();
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <EmailList />
+      <EmailDetails />
     </div>
   );
 };

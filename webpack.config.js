@@ -28,6 +28,14 @@ module.exports = {
         exclude: /node_modules/,
         use: "babel-loader",
       },
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        type: "asset/resource",
+      }
     ],
   },
   plugins: [

@@ -1,0 +1,27 @@
+@import "colors";
+
+
+
+.email-list{
+    max-height: 100vh;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+    width:350px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    padding:0;
+    border-right:1px solid $border_color;
+    .list{
+        margin:0;
+        padding:0;
+    };
+    .list li:last-child{
+        border-bottom:1px solid $border_color;
+        
+    }
+}
+.email-list::-webkit-scrollbar{
+width:0;
+height:0
+}

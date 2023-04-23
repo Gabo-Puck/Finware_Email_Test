@@ -1,4 +1,4 @@
-import { FETCH_EMAILS } from "../actionTypes/actionTypes";
+import { FETCH_EMAILS } from "../actions/actionTypes";
 
 const fetchEmailsMiddleware = (storeAPI) => (next) => (action) => {
   if (action.type === FETCH_EMAILS) {

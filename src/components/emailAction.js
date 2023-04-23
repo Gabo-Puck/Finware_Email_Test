@@ -1,10 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux/es/exports";
-import {
-  DELETE_EMAIL,
-  SPAM_EMAIL,
-  UNREAD_EMAIL,
-} from "../../actionTypes/actionTypes";
+import { DELETE_EMAIL, SPAM_EMAIL, UNREAD_EMAIL } from "../actions/actionTypes";
 const EmailActions = (props) => {
   const dispatch = useDispatch();
   const handleClickDelete = (e) => {
