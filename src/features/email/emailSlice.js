@@ -5,6 +5,11 @@ import {
   UNREAD_EMAIL,
   SPAM_EMAIL,
 } from "../../actions/actionTypes";
+import {
+  FILTER_DELETE,
+  FILTER_INBOX,
+  FILTER_SPAM,
+} from "../../actions/filterOptions.js";
 
 const initialState = {
   selectedEmail: undefined,
@@ -31,7 +36,7 @@ export default function emailReducer(state = initialState, action) {
           }
           return {
             ...email,
-            type: "deleted",
+            type: FILTER_DELETE,
           };
         }),
       };
@@ -62,7 +67,7 @@ export default function emailReducer(state = initialState, action) {
           }
           return {
             ...email,
-            type: "spam",
+            type: FILTER_SPAM,
           };
         }),
       };
