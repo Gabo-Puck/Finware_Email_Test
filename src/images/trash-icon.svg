@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.91px;}</style></defs><path class="cls-1" d="M16.88,22.5H7.12a1.9,1.9,0,0,1-1.9-1.8L4.36,5.32H19.64L18.78,20.7A1.9,1.9,0,0,1,16.88,22.5Z"/><line class="cls-1" x1="2.45" y1="5.32" x2="21.55" y2="5.32"/><path class="cls-1" d="M10.09,1.5h3.82a1.91,1.91,0,0,1,1.91,1.91V5.32a0,0,0,0,1,0,0H8.18a0,0,0,0,1,0,0V3.41A1.91,1.91,0,0,1,10.09,1.5Z"/><line class="cls-1" x1="12" y1="8.18" x2="12" y2="19.64"/><line class="cls-1" x1="15.82" y1="8.18" x2="15.82" y2="19.64"/><line class="cls-1" x1="8.18" y1="8.18" x2="8.18" y2="19.64"/></svg>
+<svg width="19" height="23" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_7">
+   <path id="svg_1" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" d="m14.43,22l-9.76,0a1.9,1.9 0 0 1 -1.9,-1.8l-0.86,-15.38l15.28,0l-0.86,15.38a1.9,1.9 0 0 1 -1.9,1.8z" class="cls-1"/>
+   <line id="svg_2" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" y2="4.82" x2="19.1" y1="4.82" x1="0" class="cls-1"/>
+   <path id="svg_3" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" d="m7.64,1l3.82,0a1.91,1.91 0 0 1 1.91,1.91l0,1.91a0,0 0 0 1 0,0l-7.64,0a0,0 0 0 1 0,0l0,-1.91a1.91,1.91 0 0 1 1.91,-1.91z" class="cls-1"/>
+   <line id="svg_4" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" y2="19.14" x2="9.55" y1="7.68" x1="9.55" class="cls-1"/>
+   <line id="svg_5" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" y2="19.14" x2="13.37" y1="7.68" x1="13.37" class="cls-1"/>
+   <line id="svg_6" stroke-width="1.91px" stroke-miterlimit="10" stroke="#020202" fill="none" y2="19.14" x2="5.73" y1="7.68" x1="5.73" class="cls-1"/>
+  </g>
+ </g>
+</svg>
