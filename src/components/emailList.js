@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import EmailListItem from "./emailListItem";
-import FilterOptions from "./filterOptions";
+import FilterBar from "./filterBar";
 
 import "../sass/emailList.scss";
 const selectEmails = (state) =>
@@ -25,7 +25,7 @@ const EmailList = () => {
 
   return (
     <div className="email-list">
-      <FilterOptions className="filter-options" />
+      <FilterBar />
       <ul className="list">{renderedEmails}</ul>
     </div>
   );
