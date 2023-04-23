@@ -1,0 +1,14 @@
+@import "colors";
+@import "buttons";
+@import "typography";
+button{
+    @include button-style;
+    font-size: $mail_list_filter;
+}
+
+.filter-bar{
+    display:flex;
+    justify-content: end;
+    border-bottom:1px solid $border_color;
+
+}

@@ -12,7 +12,12 @@
     .header{
         display: flex;
         justify-content:space-between;
+        align-items: center;
         padding-bottom: 3px;
+        img{
+            width:$mail_list_text - 3px;
+            margin-right:4px;
+        }
     }
     .from{
         color:$sender_color;

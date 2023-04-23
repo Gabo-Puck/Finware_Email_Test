@@ -1,0 +1,26 @@
+@import "colors";
+@import "buttons";
+@import "typography";
+
+button{
+    @include button-style;
+    font-size: $mail_list_filter;
+}
+
+.filter-option{
+    display:flex;
+    align-items: center;
+    padding:10px 7px;
+
+    img{
+        width:$mail_list_filter + 3px;
+    }
+}
+.active-filter{
+    button{
+        color:$selected_bar_color;
+    }
+    img{
+        filter:$selected_icon_color;
+    }
+}

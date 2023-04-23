@@ -1,12 +1,16 @@
 @import "colors";
+@import "buttons";
+@import "typography";
 
 
 
 .email-list{
     max-height: 100vh;
+    min-height: 100vh;
     padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
     box-sizing: content-box; /* So the width will be 100% + 17px */
     width:350px;
+    min-width:350px;
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -16,6 +20,9 @@
         margin:0;
         padding:0;
     };
+    .list li:first-child{
+        border:0;
+    }
     .list li:last-child{
         border-bottom:1px solid $border_color;
         
