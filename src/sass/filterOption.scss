@@ -16,11 +16,6 @@ button{
         width:$mail_list_filter + 3px;
     }
 }
-.active-filter{
-    button{
-        color:$selected_bar_color;
-    }
-    img{
-        filter:$selected_icon_color;
-    }
+.active-option{
+    @include active-button-style;
 }

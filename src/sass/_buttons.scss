@@ -3,4 +3,12 @@
 @mixin button-style{
     background-color:transparent;
     border:0;
+    
+}
+
+@mixin active-button-style{
+    color:$selected_bar_color;
+    img{
+        filter:$selected_icon_color;
+    }
 }

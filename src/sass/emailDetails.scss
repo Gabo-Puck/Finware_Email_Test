@@ -1,0 +1,58 @@
+@import "colors";
+@import "buttons";
+@import "typography";
+button{
+    @include button-style;
+}
+.email-details{
+    flex-grow:1;
+    background-color:$mail_bg_color;
+    position:relative;
+    padding:20px 40px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    
+    .empty-icon{
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:190px;
+        transform: translate(-50%, -50%);
+    }
+    .header{
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-bottom:20px;
+        .subject{
+            font-size:$mail_content_subject;
+            margin:0;
+        }
+    }
+    .body{
+        background-color:white;
+        border:2px solid $border_color;
+        border-radius:13px;
+        padding:40px 50px;
+        .sender{
+            font-size:$mail_content_sender;
+        }
+        .content{
+            font-size:$mail_content_body;
+        }
+        .body-header{
+            display:flex;
+            justify-content:space-between;
+            .date{
+                color:$date_color;
+                font-size:$mail_content_date;
+            }
+        }
+    }
+}
+
+.email-details::-webkit-scrollbar{
+    width:0;
+    height:0
+    }

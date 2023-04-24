@@ -1,0 +1,19 @@
+@import "colors";
+@import "buttons";
+@import "typography";
+button{
+    @include button-style;
+    padding:0px 10px;
+    img{
+        width:$mail_content_action;
+        filter:$mail_actions_icon_color;
+    }
+
+}
+
+.active-state{
+    @include active-button-style;
+}
+
+
+
