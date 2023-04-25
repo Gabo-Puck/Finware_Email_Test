@@ -3,12 +3,21 @@
 @import "typography";
 button{
     @include button-style;
-    padding:0px 10px;
+    margin:0px 10px;
     img{
         width:$mail_content_action;
         filter:$mail_actions_icon_color;
     }
 
+}
+
+
+.active-option{
+    @include active-button-style;
+}
+
+button:hover{
+    cursor:pointer;
 }
 
 .active-state{

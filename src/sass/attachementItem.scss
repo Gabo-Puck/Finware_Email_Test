@@ -1,0 +1,15 @@
+@import "colors";
+@import "typography";
+.attachement-item{
+    background-color:$border_color;
+    padding:10px 15px !important;
+    border-radius: 4px;
+    font-size: $mail_content_body;
+    max-width:150px;
+    min-width:150px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}

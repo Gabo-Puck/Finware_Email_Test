@@ -11,7 +11,27 @@
       "tag": "Indigo",
       "attachements": [
         {
-          "file": "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
+          "file": "https://dummyimage.com/250x250.jpg/",
+          "name": "ut_nulla_sed.jpeg"
+        },
+        {
+          "file": "https://dummyimage.com/250x250.jpg/",
+          "name": "ut_nulla_sed.jpeg"
+        },
+        {
+          "file": "https://dummyimage.com/250x250.jpg/",
+          "name": "ut_nulla_sed.jpeg"
+        },
+        {
+          "file": "https://dummyimage.com/250x250.jpg/",
+          "name": "ut_nulla_sed.jpeg"
+        },
+        {
+          "file": "https://dummyimage.com/250x250.jpg/",
+          "name": "ut_nulla_sed.jpeg"
+        },
+        {
+          "file": "https://dummyimage.com/250x250.jpg/",
           "name": "ut_nulla_sed.jpeg"
         }
       ]

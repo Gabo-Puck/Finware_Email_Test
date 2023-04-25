@@ -5,3 +5,4 @@ export const SELECT_EMAIL = "SELECT_EMAIL";
 export const SPAM_EMAIL = "SPAM_EMAIL";
 export const CHANGE_FILTER = "CHANGE_FILTER";
 export const FETCH_EMAILS = "FETCH_EMAILS";
+export const INBOX_EMAIL = "INBOX_EMAIL";

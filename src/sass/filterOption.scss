@@ -10,11 +10,14 @@ button{
 .filter-option{
     display:flex;
     align-items: center;
-    padding:10px 7px;
+    margin:10px 7px;
 
     img{
         width:$mail_list_filter + 3px;
     }
+}
+.filter-option:hover, .filter-option button:hover{
+    cursor:pointer;
 }
 .active-option{
     @include active-button-style;
